@@ -16,3 +16,10 @@ VALUES
 -- Confirm the table was created and is populated
 SELECT * 
 FROM oscars;
+
+
+-- Create a new table named family_films (based on existing data in the db)
+CREATE TABLE family_films AS
+SELECT *
+FROM film
+WHERE rating IN ('G', 'PG');
