@@ -1,8 +1,4 @@
---Which films are most frequently rented?
--- There are two tables that include the info we need for this question. 
-The film table, and the rental table.
-They do not have corresponding columns to inner join on, so we need an additonal table:
-inventory, to tie them together. 
+-- Which films are most frequently rented? 
 
 SELECT 
     title, 
